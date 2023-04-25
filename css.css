@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(246, 246, 246);
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+h3 {
+     text-align: center;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #454545;
+}
+
+li {
+    float: left;
+}
+.menu li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+img {
+    float: left;
+    z-index: 1;
+}
+
+.thongtin {
+    position:relative;
+    top: 10px;
+    left: 20px;
+}
+.thongtin li {
+    display: flex;
+    font-size: 15  px;
+}
+.profile {
+    position:relative;
+    top: 180px;
+    left: 0px;
+    background-color: #ffffff;
+    width: 2000px;
+    height: 500px;
+    justify-content: space-evenly;
+
+}
+.profile li {
+    text-decoration: none;
+    padding: 0 80px;
+}
+.anh img {
+    align-items: center;
+}
